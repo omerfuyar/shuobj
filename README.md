@@ -1,0 +1,2 @@
+# Shuobj
+Shuobj (SHU OBJ) is a simple single header library to easily parse .obj files and their utilities. It outputs all the information in a .obj file and all of it's helpers like .mtl, textures (tbd) etc. 
