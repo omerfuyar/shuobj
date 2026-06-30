@@ -1,7 +1,11 @@
 .vscode
-build/
-*.c
 *.exe
-*.obj
-*.log
+*.old
 ignore*
+*.pdb
+build/
+*.o
+*.obj
+*.shu
+*.out
+*.log

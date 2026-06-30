@@ -1,17 +1,25 @@
 #pragma once
 
-#pragma region Shuobj Macros
+#ifndef SHU_HEADER
+#ifdef SHU
+#include SHU
+#else
+#include "shu.h"
+#endif
+#endif
 
-#pragma endregion Shuobj Macros
+#pragma region Macros
 
-#pragma region Shuobj Declarations
+#pragma endregion Macros
 
-#pragma endregion Shuobj Declarations
+#pragma region Declarations
 
-#pragma region Shuobj Definitions
+#pragma endregion Declarations
 
-#ifdef SHUOBJ_IMPLEMENTATION
+#pragma region Definitions
+
+#ifdef SHU_IMPLEMENTATION
 
 #endif
 
-#pragma endregion Shuobj Definitions
+#pragma endregion Definitions
